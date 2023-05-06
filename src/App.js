@@ -1,21 +1,11 @@
+import {Header,Body} from "./styles/Global";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Body>
+        <Header>J O S H U A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B A Y O N A</Header>
+      </Body>
     </div>
   );
 }
