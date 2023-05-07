@@ -1,5 +1,4 @@
 import { HeaderStyle, SubheaderStyle } from "../styles/Component.styles";
-import Gallery from "./Gallery";
 
 function Header() {
   return (
@@ -8,7 +7,7 @@ function Header() {
       <SubheaderStyle href="#">
         C O N T A C T&nbsp;&nbsp;&nbsp;M E
       </SubheaderStyle>
-      <Gallery />
+      
     </HeaderStyle>
   );
 }
