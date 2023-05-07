@@ -1,12 +1,11 @@
-import {Header,Body} from "./styles/Global";
+import { BodyStyle } from "./styles/Component.styles";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <Body>
-        <Header>J O S H U A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B A Y O N A</Header>
-      </Body>
-    </div>
+    <BodyStyle>
+      <Header />
+    </BodyStyle>
   );
 }
 
